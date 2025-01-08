@@ -14,3 +14,6 @@ In this repository I will share my sample files how I successfully created an ET
 [ETL_Run_Script](https://github.com/jberouise2/quarterly_report_etl/blob/5ccde636ceb374193bc28d2d352608d44092a124/git_project/run_extract_quarter_report.py)  
 
 NOTE: Please Follow The General Guidelines on placing the python scripts for package script and run script in order for the project to work properly
+
+```bash
+curl -L -o quarterly_report_etl.zip https://github.com/jberouise2/quarterly_report_etl/archive/5ccde636ceb374193bc28d2d352608d44092a124.zip
