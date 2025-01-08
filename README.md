@@ -17,4 +17,5 @@ NOTE: Please Follow The General Guidelines on placing the python scripts for pac
 
 Copy and Run This Shell Command to Download The Working Files:
 ```bash
-curl -L -o quarterly_report_etl.zip https://github.com/jberouise2/quarterly_report_etl/archive/5ccde636ceb374193bc28d2d352608d44092a124.zip
+curl -L -o quarterly_report_etl.zip \
+https://github.com/jberouise2/quarterly_report_etl/archive/5ccde636ceb374193bc28d2d352608d44092a124.zip
