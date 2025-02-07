@@ -67,6 +67,7 @@ def extract_quarter_raw(dir, file, save, sheets):
         save(str): save file name to extract to
         sheets(str): month sheet to include during extraction. ex: ["sheet1", "sheet2", "sheet(n+1)"]
     """
+    n = len(sheets)
     try:
         #Declaring working directory
         working_directory = dir
@@ -117,7 +118,7 @@ def extract_quarter_raw(dir, file, save, sheets):
         df_fin = []
         
         try:
-            for sheet in sheets[0:2]:
+            for sheet in sheets[0:(n-1)]:
                 df = pd.read_excel(file_init, sheet_name=sheet, skiprows=2, names=column_names)
                 #df = df.astype(str)
                 df = df[df["DATE_TESTED"].notna()]
